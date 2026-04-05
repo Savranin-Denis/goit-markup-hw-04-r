@@ -118,6 +118,9 @@ body {
 /* #region hero */
 .hero-section {
   background-color: #2e2f42;
+}
+
+.hero-bg-wrap {
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero-people-office.jpg);
@@ -194,6 +197,21 @@ body {
 
 .features-item {
   flex-basis: calc((100% - 72px) / 4);
+}
+
+.features-inner {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  max-width: 100%;
+  min-height: 112px;
+  background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.features-svg {
 }
 
 .features-subtitle {
